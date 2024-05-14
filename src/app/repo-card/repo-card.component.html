@@ -1,0 +1,21 @@
+<div class="flex flex-wrap">
+  <!-- We took input of the repos array from "repo-list" component, now iterating over each repo -->
+  <div class="w-1/4 p-4" style="height: 250px;" *ngFor="let repo of repos"> <!-- For loop -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 h-full">
+      <div class="p-4">
+        <div class="font-bold text-lg mb-2 text-custom-blue">{{ repo.name }}</div> 
+        <p class="text-black truncate max-w-full font-semibold">{{ repo.description }}</p>
+      </div>
+      <div >
+        <div class="px-4 py-2 ">
+          <ng-container *ngFor="let topic of repo.topics.slice(0, 3); let i = index">
+            <span class="inline-block bg-custom-blue rounded px-3 py-1 text-base font-semibold text-white mr-2 mb-2">{{ topic }}</span>
+          </ng-container>
+          <div class="p-3">
+            <a href="{{ repo.html_url }}" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold p-3 rounded inline-block" style="background-color: rgba(59, 130, 246, var(--tw-bg-opacity))" target="_blank">View Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
