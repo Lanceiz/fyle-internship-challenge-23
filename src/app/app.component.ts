@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { UserInputComponent } from './user-input/user-input.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +13,7 @@ export class AppComponent implements OnInit{
   getUser(userName: string) {
     this.searchedUserName = userName;
   }
+  
   ngOnInit() {
-    
   }
 }

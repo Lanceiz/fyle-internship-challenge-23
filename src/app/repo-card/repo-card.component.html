@@ -1,9 +1,9 @@
 <div class="flex flex-wrap">
-  <!-- We took input of the repos array from "repo-list" component, now iterating over each repo -->
+  <!-- Took input of the repos array from "repo-list" component, now iterating over each repo -->
   <div class="w-1/4 p-4" style="height: 250px;" *ngFor="let repo of repos"> <!-- For loop -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 h-full">
       <div class="p-4">
-        <div class="font-bold text-lg mb-2 text-custom-blue">{{ repo.name }}</div> 
+        <div class="font-bold text-xl mb-2 text-custom-blue">{{ repo.name }}</div> 
         <p class="text-black truncate max-w-full font-semibold">{{ repo.description }}</p>
       </div>
       <div >

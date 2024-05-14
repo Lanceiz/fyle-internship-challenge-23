@@ -11,6 +11,5 @@ export class UserInputComponent {
 
   getUser(){
     this.searchUserName.emit(this.userName);
-    // console.log(this.userName);
   }
 }
