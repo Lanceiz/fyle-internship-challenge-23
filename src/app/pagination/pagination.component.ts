@@ -11,8 +11,6 @@ export class PaginationComponent {
   @Input() totalItems: number = 0;
   @Output() pageChange: EventEmitter<number> = new EventEmitter<number>();
   @Output() sizeChange: EventEmitter<number> = new EventEmitter<number>();
-  // Arr:Array<any> = [1,2,3,4,5,6,7,8,9,10];
-
 
   onPageChange(page : number){
     this.pageChange.emit(page);
@@ -31,7 +29,6 @@ export class PaginationComponent {
     console.log(selectedPageSize);
     if (!isNaN(Number(selectedPageSize))) {
       this.pageSize = Math.min(100, Number(selectedPageSize));
-      // this.pageSize = Number(selectedPageSize);
       this.currentPage = 1; // Reset to the first page when changing page size
       this.onPageSizechange(this.pageSize); // Emitting page change event to update repos
       
@@ -40,7 +37,6 @@ export class PaginationComponent {
   }
   getPageNumbers(): number[] {
     const totalPages = this.calculateTotalPages();
-    //  this.Arr = Array.from({length: totalPages}, (_, index) => index + 1);
     return Array.from({length: totalPages}, (_, index) => index + 1);
   }
   

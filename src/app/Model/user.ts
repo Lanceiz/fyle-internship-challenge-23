@@ -1,3 +1,4 @@
+//Structure of the User card
 export interface User {
     login: string;
     id: number;

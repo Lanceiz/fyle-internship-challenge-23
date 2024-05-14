@@ -1,3 +1,4 @@
+// Structure of the Repo card
 export interface Repo {
     id: number;
     name: string;
