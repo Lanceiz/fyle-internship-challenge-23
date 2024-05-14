@@ -7,8 +7,8 @@ This Angular single-page application (SPA) allows users to search for GitHub use
 
 ## Deployment
     Deployed on netlify
-    Deployed link: `![Landing Page](E:\Fyle_Assessment\fyle-internship-challenge-23\src\assets\landing.png)
-    
+    Deployed link: https://git-repo-lister.netlify.app/
+
 ## Setup Instructions
 
 To set up the project locally, follow these steps:
@@ -46,4 +46,3 @@ To set up the project locally, follow these steps:
    ```
    ng test --include="src/app/services/github.service.spec.ts"
 
-![Landing Page](src\assets\landing.png)
