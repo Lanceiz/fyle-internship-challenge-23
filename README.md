@@ -9,4 +9,19 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/github-repos-listing-page.git
+   git clone https://github.com/Lanceiz/fyle-internship-challenge-23.git
+
+2. Navigate into the project directory:
+
+   ```
+   cd fyle-internship-challenge-23
+
+3. Install dependencies:
+
+   ```
+   npm install
+
+## Running the Appplication
+
+    ```
+    ng serve
