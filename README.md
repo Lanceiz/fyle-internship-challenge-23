@@ -38,3 +38,5 @@ To set up the project locally, follow these steps:
 
    ```
    ng test --include="src/app/services/github.service.spec.ts"
+
+![Landing Page](C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-05-14 161201.png)
