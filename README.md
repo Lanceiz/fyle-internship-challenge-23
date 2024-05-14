@@ -2,6 +2,13 @@
 
 This Angular single-page application (SPA) allows users to search for GitHub usernames and display their public repositories.
 
+## Technology Stack used
+    Angular, Typescript, HTML, TailwindCSS
+
+## Deployment
+    Deployed on netlify
+    Deployed link: `![Landing Page](E:\Fyle_Assessment\fyle-internship-challenge-23\src\assets\landing.png)
+    
 ## Setup Instructions
 
 To set up the project locally, follow these steps:
@@ -39,4 +46,4 @@ To set up the project locally, follow these steps:
    ```
    ng test --include="src/app/services/github.service.spec.ts"
 
-![Landing Page](C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2024-05-14 161201.png)
+![Landing Page](src\assets\landing.png)
