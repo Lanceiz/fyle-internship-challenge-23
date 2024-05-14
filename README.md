@@ -23,5 +23,18 @@ To set up the project locally, follow these steps:
 
 ## Running the Appplication
 
-    ```
     ng serve
+
+## Running Tests
+
+    ng test
+
+1. Running unit test for the repo-list component
+   
+   ```
+   ng test --include="src/app/repo-list/repo-list.component.spec.ts"   
+
+2. Running test for the sevice
+
+   ```
+   ng test --include="src/app/services/github.service.spec.ts"
