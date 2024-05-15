@@ -74,10 +74,10 @@ export class RepoListComponent implements OnChanges {
     }
   }
 
-
+  
   onPageChange(page:number){
-    this.currPage = page;
-    this.loadRepos();
+    this.currPage = page; //udate the current page
+    this.loadRepos(); //load the next repos 
   }
 
   onPageSizeChange(number1: number){

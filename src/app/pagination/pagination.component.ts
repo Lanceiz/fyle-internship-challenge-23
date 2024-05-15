@@ -39,6 +39,4 @@ export class PaginationComponent {
     const totalPages = this.calculateTotalPages();
     return Array.from({length: totalPages}, (_, index) => index + 1);
   }
-  
-
 }
